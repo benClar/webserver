@@ -15,6 +15,6 @@ public class ApplicationConfig {
 
     @Bean("/")
     public ResourceHandler homeHandler() {
-        return new ResourceHandler("html/home.html", Header.CONTENT_TYPE_TEXT);
+        return new ResourceHandler("html/index.html", Header.CONTENT_TYPE_TEXT);
     }
 }
